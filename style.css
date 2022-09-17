@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caveat&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #ffe0b3;
+  font-family: Poppins, monospace, Arial, Helvetica;
+}
+
+#drum-machine {
+  background-color: #b47b31;
+  width: 600px;
+  height: 800px;
+  margin: 50px auto;
+}
+
+#myTitle h1 {
+  background-color: #ffc266;
+  font-family: Caveat;
+  text-align: center;
+  font-size: 45px;
+}
+
+#other-info-drum {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+#other-info-drum #author-name, #other-info-drum #display {
+  font-family: Caveat, monospace, Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  background-color: #ffc266;
+  width: 200px;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.drumAllButtons {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 75px;
+  gap: 75px 0;
+}
+
+.drum-pad {
+  text-align: center;
+  padding-top: 33px;
+  font-weight: bold;
+  font-size: 23px;
+  margin-left: 75px;
+}
